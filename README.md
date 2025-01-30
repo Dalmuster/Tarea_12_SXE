@@ -21,6 +21,9 @@ Apartado 2
 
 Inserta 5 registros inventados en la tabla a través de una sentencia SQL.
 
+![imagen](https://github.com/user-attachments/assets/b27a68d2-bb7d-42ca-af04-4d84a32186cf)
+
+
 Apartado 3
 
 Realiza una consulta donde se muestren todos los datos de la tabla EmpresasFCT
