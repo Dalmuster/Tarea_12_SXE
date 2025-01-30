@@ -30,6 +30,9 @@ Realiza una consulta donde se muestren todos los datos de la tabla EmpresasFCT
 ordenados por fechaContacto, de modo que en la primera fila salga el que tenga la
 fecha más reciente.
 
+![imagen](https://github.com/user-attachments/assets/c2774b2f-ebae-44bf-99d1-8c406e37da91)
+
+
 Apartado 4
 
 Realiza una consulta que permita obtener un listado de todos los contactos de
