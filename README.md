@@ -16,6 +16,14 @@ sentencia que cree una tabla llamada “EmpresasFCT“con los siguientes campos:
 
 ![imagen](https://github.com/user-attachments/assets/3b2f9941-3235-4ba5-bfa9-f0d3eeeec4ab)
 
+CREATE TABLE EmpresasFct (
+	IdEmpresa Int Primary Key,
+	nombre varchar(40),
+	quiereAlumnos boolean,
+	numAlumnos Int,
+	fechaContacto Date
+)
+
 
 Apartado 2
 
@@ -23,6 +31,12 @@ Inserta 5 registros inventados en la tabla a través de una sentencia SQL.
 
 ![imagen](https://github.com/user-attachments/assets/b27a68d2-bb7d-42ca-af04-4d84a32186cf)
 
+INSERT INTO public.empresasfct(idempresa, nombre, quiere alumnos, numalumnos, fechacontacto)Values
+	(1, 'Alcampo', true, 10, '2024/09/20'),
+	(2, 'Corte Ingles', False, 0, '2024/09/22'),
+	(3, 'Aldi', true, 8, '2024/09/25'),
+	(4, 'Daniel Castelao', true, 2, '2024/09/29'),
+	(5, 'Ies Teis', false, 0, '2024/09/30');
 
 Apartado 3
 
@@ -32,6 +46,9 @@ fecha más reciente.
 
 ![imagen](https://github.com/user-attachments/assets/c2774b2f-ebae-44bf-99d1-8c406e37da91)
 
+Select idempresa, nombre, quierealumnos, fechacontacto
+	FROM public.empresasfct
+	Order by fechacontacto DESC;
 
 Apartado 4
 
@@ -46,6 +63,9 @@ Ordenados alfabéticamente por el nombre comercial de la empresa.
 
 ![imagen](https://github.com/user-attachments/assets/9ac7ee19-2302-45e0-90f6-98eeb4161dbb)
 
+Select name, city, commercial_company_name from res_partner
+where is_company=false AND city='Tracy'
+order by commercial_company_name
 
 Apartado 5
 
@@ -63,6 +83,9 @@ Ordenadas por fecha de factura de modo que la primera sea la más reciente.
 
 ![imagen](https://github.com/user-attachments/assets/945262c1-f378-45b1-a687-5488d40b66b8)
 
+SELECT Distinct invoice_partner_display_name, invoice_date, amount_untaxed
+	FROM account_move
+	where move_type='in_refund'
 
 Apartado 6
 
