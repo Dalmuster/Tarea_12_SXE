@@ -126,4 +126,16 @@ pertenecientes a la empresa “Ready Mat”, pero mantén la empresa. Añade una
 captura de pantalla de la sección de contactos de odoo con Ready Mat antes y
 después
 
+Antes del borrado.
+
+![imagen](https://github.com/user-attachments/assets/ecfe347e-86d7-4906-a29e-7aa69bac898d)
+
+![imagen](https://github.com/user-attachments/assets/7a70e250-d419-4765-a619-d018b625d12b)
+
+Delete from res_partner
+where commercial_company_name = 'Ready Mat' AND is_company = false
+
+Despues del borrado
+
+
 
