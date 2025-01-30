@@ -107,7 +107,16 @@ Having Count(Distinct name)>2
 Apartado 7
 
 Crea una sentencia que actualice el correo de los contactos cuyo dominio es
-@bilbao.example.com a @bilbao.bizkaia.neus
+@bilbao.example.com a @bilbao.bizkaia.eus
+
+![imagen](https://github.com/user-attachments/assets/4ebc4913-25f8-4d66-a456-b87feaa7b6ab)
+
+UPDATE res_partner
+Set email = Replace(email,'@bilbao.example.com' ,'@bilbao.bizkaia.eus')
+Where email Like '%@bilbao.example.com'
+
+Select email from res_partner
+WHERE email LIKE '%@bilbao.bizkaia.eus';
 
 Apartado 8
 
@@ -116,3 +125,5 @@ que tenías como contacto. Crea una sentencia que elimine todos los contactos
 pertenecientes a la empresa “Ready Mat”, pero mantén la empresa. Añade una
 captura de pantalla de la sección de contactos de odoo con Ready Mat antes y
 después
+
+
