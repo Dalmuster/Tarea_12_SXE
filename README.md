@@ -54,10 +54,15 @@ emitido algún reembolso (facturas rectificativas de proveedor)
 
 - Nombre de la empresa
 - Número de factura
-- Fecha de la factura -total de factura con impuestos
+- Fecha de la factura
 - Total factura SIN impuestos
   
 Ordenadas por fecha de factura de modo que la primera sea la más reciente.
+
+(Utilice distinct para eliminar duplicados)
+
+![imagen](https://github.com/user-attachments/assets/945262c1-f378-45b1-a687-5488d40b66b8)
+
 
 Apartado 6
 
@@ -66,8 +71,10 @@ ha emitido más de dos facturas de venta (solo venta) confirmadas, mostrando los
 siguientes datos:
 
 - Nombre de la empresa
-- Número de facturas -total de factura con impuestos
+- Número de facturas 
 - Total facturado SIN IMPUESTOS
+
+
 
 Apartado 7
 
