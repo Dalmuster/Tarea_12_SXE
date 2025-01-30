@@ -39,10 +39,13 @@ Realiza una consulta que permita obtener un listado de todos los contactos de
 Odoo (no empresas) con la siguiente información:
 
 - Nombre
-- Cuya ciudad sea Tracy, y código postal 95304
+- Cuya ciudad sea Tracy
 - Nombre comercial de la empresa
   
-Ordenados alfabéticamente por el nombre comercial de la empresa,
+Ordenados alfabéticamente por el nombre comercial de la empresa.
+
+![imagen](https://github.com/user-attachments/assets/9ac7ee19-2302-45e0-90f6-98eeb4161dbb)
+
 
 Apartado 5
 
