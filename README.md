@@ -97,7 +97,12 @@ siguientes datos:
 - Número de facturas 
 - Total facturado SIN IMPUESTOS
 
+![imagen](https://github.com/user-attachments/assets/14d1c1b6-0556-4ee1-be4d-a77c1768d53e)
 
+SELECT invoice_partner_display_name, Count(Distinct name) As Numero_de_facturas, Sum(Distinct amount_untaxed) As Total_facturado from account_move
+Where move_type='out_invoice' AND state='posted'
+Group by invoice_partner_display_name
+Having Count(Distinct name)>2
 
 Apartado 7
 
