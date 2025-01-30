@@ -9,10 +9,13 @@ herramienta PgAdmin u otro método que estimes oportuno, elabora y ejecuta una
 sentencia que cree una tabla llamada “EmpresasFCT“con los siguientes campos:
 
 ● idEmpresa: autonumérico. Este campo será la clave primaria.
-● nombre: Texto con tamaño máximo de 40 caracteres. -useChatgpt: booleano, por defecto a true
+● nombre: Texto con tamaño máximo de 40 caracteres.
 ● quiereAlumnos: Booleano.
 ● numAlumnos: número entero.
 ● fechaContacto: tipo fecha
+
+![imagen](https://github.com/user-attachments/assets/3b2f9941-3235-4ba5-bfa9-f0d3eeeec4ab)
+
 
 Apartado 2
 
